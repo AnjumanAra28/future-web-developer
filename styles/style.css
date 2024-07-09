@@ -13,7 +13,19 @@ body{
 .text-center{
     text-align: center;
 }
+/*----------------- paragraph style----------- */
+body p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
 
+/* --------heading 2 styles----------- */
+.heading2 {
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 32px;
+}
 /*------------------------------------ banner style starts here--------------------------- */
 .banner-container{
     width: 1440px;
@@ -64,23 +76,13 @@ body{
     margin-top: 70px;
     padding-top: 60px;
 }
-.dev-title-section h1{
-    margin-bottom: 24px;
-    font-weight: 800;
-    font-size: 32px;
-}
 .dev-reasons-section{
     margin-top: 50px;
 }
-.dev-reasons-section h2{
+.dev-reasons-section h2  {
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 16px;
-}
-.dev-reasons-section p{
-    color: rgb(13, 19, 33);
-    opacity: 0.7;
     margin-bottom: 16px;
 }
 .reasons{
@@ -97,8 +99,7 @@ body{
     width: 1050px;
     height: 330px;
     margin: 0 auto;
-    margin: 40px;
-    
+    margin: 40px; 
 }
 .learn-btn{
     border: 1px solid rgb(13, 19, 33);
@@ -109,3 +110,32 @@ body{
     font-size: 20px;
     margin-top: 10px;
 }
+/* -------------------why web development ends------------------------------ */
+
+
+/* -------------------inspiration part starts------------------------------ */
+
+.inspiration-container{
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 2px solid red;
+}
+.inspiration-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ iframe{
+    width: 1070px;
+    height: 550px;
+    margin: 0 auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+/* -------------------inspiration part ends------------------------------ */
