@@ -25,8 +25,6 @@ body{
     justify-content: flex-start;
     align-items: center;
     padding-top: 30px;
-    border: 2px solid red;
-
 }
 .banner-description{
     width: 998px;
@@ -42,11 +40,72 @@ body{
 }
 .btn{
     color: rgb(255, 255, 255);
-    padding: 16px 18px;
+    padding: 18px 20px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     font-weight: 600;
     font-size: 18px;
     border: none;
     margin-top: 30px;
+}
+/* -------------------------banner section ends------------------------------- */
+
+/* -------------------why web development stars------------------------------ */
+.why-web-container{
+    width: 1140px;
+    height: 1350px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 60px;
+    
+}
+.why-web-dev-content{
+    margin-top: 70px;
+    padding-top: 60px;
+}
+.dev-title-section h1{
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 32px;
+}
+.dev-reasons-section{
+    margin-top: 50px;
+}
+.dev-reasons-section h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.dev-reasons-section p{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    margin-bottom: 16px;
+}
+.reasons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+}
+.reason1-section,.reason2-section,.reason3-section{
+    background-color: white;
+    width: 1050px;
+    height: 330px;
+    margin: 0 auto;
+    margin: 40px;
+    
+}
+.learn-btn{
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
 }
