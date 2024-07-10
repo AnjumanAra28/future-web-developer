@@ -120,7 +120,6 @@ body p{
     height: 775px;
     margin: 0 auto;
     margin-top: 60px;
-    border: 2px solid red;
 }
 .inspiration-video{
     border: 1px solid rgba(13, 19, 33, 0.2);
@@ -139,3 +138,39 @@ body p{
     border-radius: 16px;
 }
 /* -------------------inspiration part ends------------------------------ */
+
+/* -------------------current target styles starts------------------ */
+.current-target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.target-goals{
+    display: flex;
+    justify-content: space-evenly;
+}
+.target-goals > div{
+    padding: 40px;
+    width: 30%;
+    border-radius: 16px;
+}
+.target-goals h4 , p{
+    margin-top: 15px;
+}
+
+.target-goals a{
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+}
+.html-part{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-part{
+    background: rgba(0, 76, 232, 0.05);
+}
+.java-part{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* -------------------current target styles ends------------------ */
