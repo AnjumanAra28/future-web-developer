@@ -26,6 +26,16 @@ body p{
     font-weight: 800;
     font-size: 32px;
 }
+/* ----------------description width style setting--------------- */
+
+.dev-title-section, .inspiration-description, .target-description{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* -------------------------shared style ends here----------------------------------------- */
+
+
 /*------------------------------------ banner style starts here--------------------------- */
 .banner-container{
     width: 1440px;
@@ -73,15 +83,13 @@ body p{
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top: 60px;
-    
 }
 .why-web-dev-content{
     margin-top: 70px;
     padding-top: 60px;
 }
-.dev-title-section{
-    width: 80%;
-    margin: 0 auto;
+.reason-description{
+    margin-left: 30px;
 }
 .dev-reasons-section{
     margin-top: 50px;
@@ -101,12 +109,12 @@ body p{
     background: rgba(13, 19, 33, 0.02);
     margin: 0 auto;
 }
-.reason1-section,.reason2-section,.reason3-section{
+.white-bg{
     background-color: white;
     width: 1050px;
     height: 330px;
     margin: 0 auto;
-    margin: 40px; 
+    margin: 40px;
 }
 .learn-btn{
     border: 1px solid rgb(13, 19, 33);
@@ -136,7 +144,7 @@ body p{
     flex-direction: column;
     justify-content: center;
 }
- iframe{
+iframe{
     width: 1070px;
     height: 550px;
     margin: 0 auto; 
@@ -152,6 +160,9 @@ body p{
     height: 460px;
     margin: 0 auto;
     margin-top: 30px;
+}
+.target-description{
+    margin-bottom: 30px;
 }
 .target-goals{
     display: flex;
