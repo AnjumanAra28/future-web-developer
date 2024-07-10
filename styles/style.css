@@ -32,6 +32,9 @@ body p{
     height: 652px;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -75,6 +78,10 @@ body p{
 .why-web-dev-content{
     margin-top: 70px;
     padding-top: 60px;
+}
+.dev-title-section{
+    width: 80%;
+    margin: 0 auto;
 }
 .dev-reasons-section{
     margin-top: 50px;
